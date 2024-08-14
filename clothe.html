@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anybody:wght@400;500&family=Arimo&family=Barlow:wght@500&family=Kanit:wght@400;500&family=Lato:wght@900&family=Lilita+One&family=Noto+Sans:wght@300&family=Open+Sans:wght@300&family=Pacifico&family=Poppins:ital,wght@1,900&family=Righteous&family=Roboto+Slab&family=Rowdies&family=Sofia+Sans:wght@700&family=Source+Sans+Pro:wght@700&family=Varela+Round&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6d6c52fedf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="./image/logo2.png">
+    <title>Home page</title>
+</head>
+
+<body>
+
+    <!-- Top NavBar    -->
+    <div class="top-navbar">
+        <div class="top-icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="other-link">
+            <button class="btn1" id="nav-btn"><a href="login.html"><strong>Login</strong></a></button>
+            <button class="btn2" id="nav-btn"><a href=""><strong>Sign up</strong></a></button>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </div>
+    <div class="home-section">
+        <nav class="navbar navbar-expand-lg" id="Navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./image/logo.png" width="200px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars" style="color:white"></i> </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clothes</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu" style="color:white;background-color:#1c1c50;">
+                                <li><a class="dropdown-item" href="#">T-shirt</a></li>
+                                <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                                <li><a class="dropdown-item" href="#">Pants</a></li>
+                                <li><a class="dropdown-item" href="#">Sport shoes</a></li>
+                                <li><a class="dropdown-item" href="#">Smart watches</a></li>
+                                <li><a class="dropdown-item" href="#">Sunglasses</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" type="submit" id="search-btn">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner -->
+        <div class="banner2">
+            <div class="content2">
+                <h2>Get Up To 50% Off</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, molestias.</p>
+                <button class="btn3">Shop Now</button>
+            </div>
+        </div>
+        <!-- Banner -->
+
+        <div class="container" id="product-cards">
+            <div class="row" style="margin-top:30px;">
+                <div class="col col-lg-3 py-3">
+                    <div class="card">
+                        <img src="./image/p1.png" alt="">
+                        <div class="card-body">
+                            <h3>Men T-shirt</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$32.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 py-3 ">
+                    <div class="card">
+                        <img src="./image/p2.png" alt="">
+                        <div class="card-body">
+                            <h3>Women Pump</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$32.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 py-3 ">
+                    <div class="card">
+                        <img src="./image/p3.png" alt="">
+                        <div class="card-body">
+                            <h3>Men shoes</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$32.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 py-3 ">
+                    <div class="card">
+                        <img src="./image/p4.png" alt="">
+                        <div class="card-body">
+                            <h3>Men Jacket</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$32.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:30px;">
+                <div class="col col-lg-3 py-3">
+                    <div class="card">
+                        <img src="./image/p5.png" alt="">
+                        <div class="card-body">
+                            <h3>Men Blue T-shirt </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$32.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 py-3 ">
+                    <div class="card">
+                        <img src="./image/p6.png" alt="">
+                        <div class="card-body">
+                            <h3>Girls Sandal</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$32.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 py-3 ">
+                    <div class="card">
+                        <img src="./image/p7.png" alt="">
+                        <div class="card-body">
+                            <h3>Men Jacket</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$32.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 py-3 ">
+                    <div class="card">
+                        <img src="./image/p8.png" alt="">
+                        <div class="card-body">
+                            <h3>White T-shirt</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$35.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:30px;">
+                <div class="col col-lg-3 py-3">
+                    <div class="card">
+                        <img src="./image/p9.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Men Blue T-shirt </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$32.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 py-3 ">
+                    <div class="card">
+                        <img src="./image/p10.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Girls Sandal</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$32.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 py-3 ">
+                    <div class="card">
+                        <img src="./image/p11.jpg" alt="">
+                        <div class="card-body">
+                            <h3>Men Jacket</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$32.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-3 py-3 ">
+                    <div class="card">
+                        <img src="./image/p12.jpg" alt="">
+                        <div class="card-body">
+                            <h3>White T-shirt</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <div class="star text-warning">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                            </div>
+                            <h5>$35.60 <strike>$50</strike><span><i class="fas fa-cart-shopping"></i></span> </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-top py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-3">
+                        <h2>Fashion</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li>Gujarat</li>
+                            <li>Delhi</li>
+                            <li>Keral</li>
+                            <li>Asam</li>
+                        </ul>
+                        <div class="call">
+                            <i class="fa-solid fa-phone"></i><span> phone:+0000000000</span>
+                        </div>
+                        <div class="email">
+                            <i class="fa-solid fa-envelope"></i><span> Email:abc@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col col-lg-3">
+                        <p>UseFull Links</p>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">contect</a></li>
+                            <li><a href="">services</a></li>
+                            <li><a href="">privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col col-lg-3">
+                        <p>Our Services</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, ab?</p>
+                        <ul>
+                            <li><a href="">Smart phone</a></li>
+                            <li><a href="">Smart watch</a></li>
+                            <li><a href="">Airpods</a></li>
+                        </ul>
+                    </div>
+                    <div class="col col-lg-3">
+                        <p>Our Social Network</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, a!</p>
+                        <div class="footer-icons">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-google-plus"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container py-3" id="footer-bottom">
+            <p>© Copyright Fashion.All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- footer -->
+
+</body>
+
+</html>
